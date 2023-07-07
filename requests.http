@@ -1,0 +1,24 @@
+POST http://0.0.0.0:8080/adv/
+Content-Type: application/json
+
+{
+    "title": "new kettle",
+    "description": "compeltly new kettle",
+    "author": "Vasya"
+}
+
+###
+
+GET http://0.0.0.0:8080/adv/2
+
+###
+PATCH http://0.0.0.0:8080/adv/1
+Content-Type: application/json
+
+{
+    "author": "Petya"
+}
+
+###
+
+DELETE http://0.0.0.0:8080/adv/1
